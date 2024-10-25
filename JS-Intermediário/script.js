@@ -1,13 +1,19 @@
-let message = "Estou estudando javascript"
 
 
-// Substituindo parte de um texto.
 
-/*console.log(message.replace
-    ("Estou estudando",
-    "Aprendi"))
 
-*/
-    // Extraindo uma parte da string (start, end)
+const telefoneNumber = "21984321800"
 
-    console.log(message.slice(5,15))
+const lastnumbers = telefoneNumber.slice(7,11)
+
+
+const maskedNumbers = lastnumbers.padStart(telefoneNumber.length, "X")
+
+console.log(maskedNumbers)
+
+
+
+
+
+
+

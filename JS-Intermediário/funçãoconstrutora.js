@@ -125,5 +125,31 @@ pc2.exibeinfo()
 // console.log(date)
 
 
+function createhouse (location, size) {
+
+    const house = {
+
+    }
+
+    house.location = location
+    house.size = size
+
+
+    house.exibeinfos = function () {
+        console.log(`A localização da casa é ${this.location} e o tamanho da casa é ${this.size}`)
+    }
+
+
+    return house
+
+
+}
+
+
+const house1 = new createhouse ("Paracambi", "Grande")
+
+house1.exibeinfos()
+
+
 
 
