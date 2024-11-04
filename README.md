@@ -1,1 +1,1 @@
-Minha trajetório no estudo de JAVASCRIPT
+Minha trajetória no estudo de JAVASCRIPT
