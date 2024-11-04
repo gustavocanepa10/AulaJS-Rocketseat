@@ -9,12 +9,22 @@ console.log(fruits)
 
 // Verifica se um item existe no Array
 
-console.log(fruits.includes("Strawberry"))
+// console.log(fruits.includes("Strawberry"))
 
-console.log(fruits.includes("Lemon"))
+// console.log(fruits.includes("Lemon"))
 
-const array = [1,2,3,4,5]
+// const array = [1,2,3,4,5]
 
-array.splice(2,1,'x','y','z')
+// array.splice(2,1,'x','y','z')
 
-console.log(array)
+// console.log(array)
+
+
+let food = ['rice', 'bean', 'chicken', 'steak']
+
+console.log(food)
+
+
+food.splice(0,3)
+
+console.log(food)
