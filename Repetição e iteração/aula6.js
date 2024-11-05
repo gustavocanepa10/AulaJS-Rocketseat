@@ -15,6 +15,7 @@ let person = {
 
 
 // Percorrendo as propriedades a partir de um objeto
+// Property: variavel auxiliar.
 for (let property in person) {
 
     
@@ -24,7 +25,7 @@ for (let property in person) {
     console.log(property)
 
     
-    // Exibe o conteúdo da propriedade
+    // Exibe o conteúdo da propriedade.
     console.log(person[property])
     
 
