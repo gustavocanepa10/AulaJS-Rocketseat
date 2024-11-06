@@ -10,6 +10,6 @@ for (let i = 0 ; i <10 ; i++) {
         continue // O uso do CONTINUE pula o número 5 e vai até o 6
 
     }
-    console.log(i)
+    console.log(i) 
 
 }
