@@ -151,5 +151,31 @@ const house1 = new createhouse ("Paracambi", "Grande")
 house1.exibeinfos()
 
 
+function createStore  (name,local) {
+    const store = {
+
+    }
+
+    store.name = name
+    store.local = local
+
+
+    store.exibeinfo = function () {
+        console.log(`O nome da loja é ${this.name}`)
+        console.log(`O local da loja é ${this.local}`)
+
+    }
+
+    return store
+
+}
+
+
+const store1 = new createStore("Mercado Livre", "RJ")
+store1.exibeinfo()
+
+
+
+
 
 

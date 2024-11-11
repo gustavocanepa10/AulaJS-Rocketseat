@@ -77,4 +77,17 @@ console.log(user["name"] ["firstName"])
 user["message"] ()
 
 
+const person = {
+    name:"Gustavo",
+    age:18,
+    email:"gustavociscotto@gmail.com" 
+
+    
+}
+
+console.log(person.name)
+console.log(person.age)
+console.log(person.email)
+
+
 
