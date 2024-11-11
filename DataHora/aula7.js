@@ -3,6 +3,9 @@
 let date = new Date("2025-08-11T14:30:00")
 console.log(date.toLocaleString())
 
+let data = new Date("2026-08-11T09:00:00")
+console.log(data.toLocaleString())
+
 
 // Exibe a data e hora em styles diferentes
 console.log(date.toLocaleString("pt-BR", {
@@ -10,6 +13,9 @@ console.log(date.toLocaleString("pt-BR", {
 
 
 }))
+
+
+
 
 console.log(date.toLocaleString("pt-BR", {
   dateStyle:"long"

@@ -10,7 +10,6 @@ console.log(new Date(0))
 
 
 // Exibe o número de milisegundos
-
 console.log(new Date().getTime())
 
 

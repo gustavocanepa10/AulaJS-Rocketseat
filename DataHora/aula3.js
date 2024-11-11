@@ -21,7 +21,7 @@ console.log(date.getDate())
 
 
 // Mês (0 à 11)
-console.log(date.getMonth() + 1)
+console.log(date.getMonth() + 1) // + 1 por causa o mês começa no 0, no caso janeiro(0)
 
 
 // Ano

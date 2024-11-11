@@ -4,8 +4,8 @@
 // método construtor só quando a classe é instanciada
 
 class User {
-    static showMessage() {
-        console.log("Essa é uma mensagem")
+    static showMessage(message) {
+        console.log(message)
     }
 
 }
@@ -13,4 +13,4 @@ class User {
 //const user = new User()
 //user.showMessage()
 
-User.showMessage()
+User.showMessage("Essa é uma mensagem")

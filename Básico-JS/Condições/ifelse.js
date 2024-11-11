@@ -14,3 +14,14 @@ else if (hour>=13 && hour <18)
 else {
     console.log("BOA NOITE")
 }
+
+
+
+let person = "Gustavo"
+
+if (person == "Gustavo") {
+    console.log("Seu nome está correto")
+
+} else {
+    console.log("Seu nome está errado")
+}

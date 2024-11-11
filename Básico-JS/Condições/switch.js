@@ -24,3 +24,23 @@ switch (option) {
         
 }
 
+
+let options = 2
+
+switch (options) {
+    case 1:
+        console.log("Consultar pedido")
+        break;
+
+    case 2 :
+        console.log("Verificar entrega")
+        break;
+
+    
+    case 3:
+        console.log("Sair")
+
+    default:
+        break;
+}
+

@@ -12,11 +12,23 @@ console.log(month)
 
 
 
-let day = date.getDay()
-let hour = date.getHours()
-let minutes = date.getMinutes()
-let seconds = date.getSeconds()
 
-console.log(`Dia ${day.toString().padStart(2,"0")} às ${hour.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}`)
+
+
+
+
+let data = new Date("2024-08-02T14:30:00")
+console.log(data.getDate())
+
+console.log(date.getDate().toString().padStart(2,"0"))
+
+
+let day = date.getDay()
+let hours = date.getHours()
+let minutes = date.getMinutes()
+
+console.log(`Dia ${day.toString().padStart(2,"0")} às ${hours.toString().padStart(2,"0")}:${minutes.toString().padStart(2,"0")}`)
+
+
 
 
