@@ -1,5 +1,5 @@
-/* CONTINUE encerra (pula) a execução das instruções na 
-iteração atual e continua a execução do loop com a proxima iteração.*/
+//CONTINUE encerra (pula) a execução das instruções na 
+//iteração atual e continua a execução do loop com a proxima iteração.
 
 
 
