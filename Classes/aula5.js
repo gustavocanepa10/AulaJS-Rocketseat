@@ -14,3 +14,12 @@ class User {
 //user.showMessage()
 
 User.showMessage("Essa é uma mensagem")
+
+
+class Person {
+    static info() {
+        console.log("Essa é uma info")
+    }
+}
+
+Person.info()
