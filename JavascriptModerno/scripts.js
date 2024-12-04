@@ -1,35 +1,30 @@
-/* destructuring assignment (desestruturação) permite extrair dados
-de arrays ou objetos em variaveis distintas. */
-
-const data = ["Gustavo", "gustavociscotto@gmail.com"]
-
-// Desestruturando de array
-
-const [username, email] = data
-
-console.log(username)
-console.log(email)
+// spread (espalhar) permite que um objeto iteravel, como uma expressão de array ou uma string seja expandido para ser usado onde zero ou mais argumentos.
 
 
-const fruits = ["banana", "apple", "orange"]
+const number = [1,2,3]
+console.log(number)
 
-// Desestruturando somente o primeiro.
+// Spread
+console.log(...number)
 
-const [Banana] = fruits
+// Criando um objeto
+const data = [
+  {
+    name: "João",
+    email: "gustavo@gmail.com",
+    avatar : "j.png"
 
-console.log(Banana)
+  },
+  {
+    name: "Marcos",
+    email: "marcos@gmail.com",
+    avatar: "m.png"
 
-// Ignorando o primeiro na desestruturação
+  }
+  
+]
 
-const [_,apple] = fruits
+console.log(data)
 
-console.log(apple)
-
-// Ignorando o primeiro e o segundo na desestruturação.
-
-const [, , orange] = fruits
-
-console.log(orange)
-
-
-
+// Utilizando o spread no array com objetos.
+console.log(...data)
