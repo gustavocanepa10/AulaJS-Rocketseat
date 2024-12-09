@@ -104,6 +104,20 @@ console.log(formatFood)
 
 
 
+const produtos = ["teclado", "mouse", "computador"]
+
+const produtosforma = produtos.map((produto) => {
+    
+    return {
+        description: produto,
+        id: Math.random()
+    }
+})
+
+
+console.log(produtosforma)
+
+
 
 
 
