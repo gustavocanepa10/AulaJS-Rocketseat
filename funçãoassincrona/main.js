@@ -1,47 +1,23 @@
-function asyncFunction() {
-    return new Promise((resolve,reject) => {
+// Conhecendo async e await
+function asynFunction() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        const isSucess = true;
+  
+        if (isSucess) {
+          resolve("Tudo certo");
+        } else {
+          reject("Deu errado");
+        }
+      }, 3000);
+    });
+  }
+  
 
-        setTimeout(()=> {
-
-            const isSucess = true
-
-
-            if(isSucess) {
-                resolve("Foi um sucesso")
-            
-            
-            } else {
-                reject("Foi um fracasso")
-            
-            
-            }
-
-        
-        
-        
-        },2000)
-
-
-
-
-
-
-    })
-}
-
-
-asyncFunction().then((response) => {
+async function fetch() {
+    const response = await asynFunction()
     console.log(response)
 
-
-}).catch((error) => {
-    console.log(error)
-
-
-}).finally(() => {
-    console.log("FIM DA EXECUÇÃO!!!")
-
-}) 
-    
-
-
+}
+fetch()
+  
