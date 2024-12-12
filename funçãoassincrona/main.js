@@ -1,23 +1,23 @@
-// Conhecendo async e await
-function asynFunction() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        const isSucess = true;
-  
-        if (isSucess) {
-          resolve("Tudo certo");
-        } else {
-          reject("Deu errado");
-        }
-      }, 3000);
-    });
-  }
-  
+/* (1) Executa o código de forma sincrona e o maior 1
+é impresso imediatamente no console. */
+console.log(1)
 
-async function fetch() {
-    const response = await asynFunction()
-    console.log(response)
+// Microtasks são executadas antes de temporizadores e promessas.
+queueMicrotask(() => {
+    console.log(2)
+})
 
-}
-fetch()
-  
+// (5) Macrotasks que aguarda o evento de temporizador ser acionado.
+setTimeout(() => {
+    console.log(3)
+
+},1000)
+
+// (2) Execução sincrona.
+console.log(4)
+
+// (4) Adiciona uma microtask.
+Promise.resolve(true).then(() => {
+    console.log(5)
+
+})

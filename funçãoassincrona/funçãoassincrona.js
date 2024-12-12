@@ -8,18 +8,19 @@ function asyncFunction () {
 
         
 
-        const isSucess = false
+        const isSuccess = true
 
-        if(isSucess) {
-            resolve("Operação foi um sucesso")
+        if(isSuccess) {
+            resolve("Operação foi um sucesso!")
         
         } else {
             reject("Algo deu errado")
         }
 
-    },3000)
+    },3000) // Simula uma operação que leva 3 segundos.
 
-    })
+    
+})
     
 }
 
@@ -27,8 +28,10 @@ function asyncFunction () {
 
 // console.log(asyncFunction())
 
+console.log("EXECUTANDO FUNÇÃO ASSINCRONA...")
+
 // usa o then quando for resolvida.
-asyncFunction().then((response)=> {
+asyncFunction().then((response) => {
     console.log(response)
 
 
