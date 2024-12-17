@@ -49,7 +49,7 @@ form.addEventListener("submit", async (event) => {
 
     })
     
-await fetchProducts()
+
 
 })
 
