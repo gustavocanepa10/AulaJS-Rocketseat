@@ -13,12 +13,16 @@ Manipular o Array e retornar um novo Array*/
 const products = ["teclado", "mouse", "monitor"]
 
 // // Percorrendo os itens do Array
-// products.map( (product) => {
-//     console.log(product)
+const formatted = products.map((product) => {
+    return product.toUpperCase()
+})
+
+console.log(formatted)
+
 
 
 // })
-
+/*
 
 // Sintaxe reduzida.
 // products.map((product) => console.log(product))
@@ -118,8 +122,7 @@ const produtosforma = produtos.map((produto) => {
 console.log(produtosforma)
 
 
-
-
+*/
 
 
 

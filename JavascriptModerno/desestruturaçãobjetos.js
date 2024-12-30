@@ -13,7 +13,7 @@ const {description,price} = product
 
 function newProduct ({price, description}) {
   console.log("Descrição:",description)
-  console.log("Preço R$", price ,",00")
+  console.log("Preço R$", price,",00")
   
 }
 

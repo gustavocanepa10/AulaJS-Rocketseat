@@ -50,5 +50,14 @@ const result = values.map((value) => {
 console.log(result)
 
 
+const names  = ["João", "Maria", "Tereza"]
+
+const results = names.map((names) => {
+  return names.toUpperCase()
+})
+
+
+
+
 
 

@@ -5,33 +5,40 @@ const data = ["Gustavo", "gustavociscotto@gmail.com"]
 
 // Desestruturando de array
 
+const info = ["Marcos", 19]
+
+console.log(info)
+
+
+
 
 
 const [username, email] = data
 
-console.log(username)
 console.log(email)
+
+
 
 
 const fruits = ["banana", "apple", "orange"]
 
 // Desestruturando somente o primeiro.
 
-const [Banana] = fruits
+// const [Banana] = fruits
 
-console.log(Banana)
+// console.log(Banana)
 
 // Ignorando o primeiro na desestruturação
+const [ _ , apple] = fruits
 
-const [_,apple] = fruits
 
 console.log(apple)
 
 // Ignorando o primeiro e o segundo na desestruturação.
 
-const [, , orange] = fruits
+// const [, , orange] = fruits
 
-console.log(orange)
+// console.log(orange)
 
 
 

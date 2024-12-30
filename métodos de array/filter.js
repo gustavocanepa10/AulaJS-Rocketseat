@@ -1,11 +1,19 @@
 /* Método filter() cria um novo array com todos os elementos 
 que passaram na condição.*/
 
-const words = ["Javascript", "HTML", "CSS", "Web"]
+// const words = ["Javascript", "HTML", "CSS", "Web"]
 
-// Filtrando palavras que tem mais de 3 letras. 
-const result = words.filter((word) => word.length > 3 )
-console.log(result)
+// // Filtrando palavras que tem mais de 3 letras. 
+// const result = words.filter((word) => word.length > 3 )
+// console.log(result)
+
+const fruits = ["Laranja", "Banana", "Maçã"]
+
+const fruitsFirstFilter = fruits.filter((fruit) => fruit.length<7)
+console.log(fruits)
+console.log(fruitsFirstFilter)
+    
+/*
 
 const persons = ["Maria", "João", "Mateus"]
 
@@ -27,12 +35,7 @@ const promotion = products.filter((product) => product.promotion === true)
 console.log(promotion)
 
 
-const fruits = [
-    { id: Math.random() ,  description: "Banana" , price: 5.00},
-    { id: Math.random() ,  description: "Laranja" ,price: 3.00},
-    { id: Math.random() ,  description: "Maça" , price: 2.00}
 
-]
 
 // Filtrando frutas que tem o preço abaixo de 4.00
 const resultado = fruits.filter((fruit) => fruit.price < 4.00)
@@ -48,4 +51,4 @@ const foods = [
 
 const foodResult = foods.filter((food) => food.price < 11)
 console.log(foodResult)
-
+*/
